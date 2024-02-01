@@ -1,0 +1,30 @@
+{
+  "name": "react-ts-playground",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "7.4.5",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "16.0.5",
+    "antd": "3.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@pdftron/webviewer": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.28",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-dom/node-stream": "latest",
+    "@types/react-dom/server": "latest",
+    "@types/react-dom/test-utils": "latest",
+    "react-scripts-ts": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
